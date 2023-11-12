@@ -1,0 +1,363 @@
+@font-face {
+    font-family: 'BMHANNAPro';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_seven@1.0/BMHANNAPro.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+@font-face {
+    font-family: 'BMYEONSUNG';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/BMYEONSUNG.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.hidden {
+    display: none;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    font-family: 'BMHANNAPro';
+}
+
+.container {
+
+ display: flex;
+ 
+}
+
+#laylay1, #laylay2, #laylay3 {
+    height: 100vh;
+}
+
+#laylay1 {
+    flex: 1.6;
+    flex-direction: column;
+    display: flex;
+}
+
+#laylay2 {
+    flex: 1.3;
+}
+
+#laylay3 {
+    flex: 1;
+}
+
+#lay1 {
+    border-radius: 40px;
+    background: transparent;
+    border: .5px solid rgba(255, 255, 255, .5);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .7);
+    margin: 25px;
+    margin-top: 50px;
+    margin-left: 50px;
+    height: 20%;
+}
+
+#lay2 {
+    border-radius: 40px;
+    background: transparent;
+    border: .5px solid rgba(255, 255, 255, .5);;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .7);
+    height: 90%;
+    margin: 25px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#lay3 {
+    border-radius: 40px;
+    background: transparent;
+    border: .5px solid rgba(255, 255, 255, .5);;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .7);
+    margin: 25px;
+    margin-left: 50px;
+    height: 75%;
+    margin-bottom: 42px;
+}
+
+#lay4 {
+    border-radius: 40px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .5);;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .7);
+    height: 40%;
+    margin: 25px;
+    margin-right: 50px;
+    margin-top: 530px;
+}
+
+#greeting {
+    color: #f6f6f6;
+    font-size: 55px;
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 30px;
+}
+
+#login p {
+    margin-top: 5px;
+    margin-bottom: 0;
+    margin-left: 85%;
+    color: #a0a0a0;
+    font-family: 'BMYEONSUNG';
+    font-size: 20px;
+}
+
+#login p:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#clock {
+    margin-top: 10px;
+    font-size: 50px; 
+    margin-left: 15%;
+    color: #b193ee;
+}
+
+#inputBox {
+    justify-content: center;
+    height: 57px;
+    margin-bottom: 0;
+    margin-top: 20px;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+#inputBox input {
+    background: transparent;
+    border: 2px solid #f6f6f6;
+    color: #f6f6f6;
+    font-family: 'BMYEONSUNG';
+    font-size: 27px;
+    width: 100%;
+    height: 90%;
+    border-radius: 60px;
+    padding-left: 20px;
+    padding-top: 5px;
+    outline: none;
+}
+
+#inputBox input:hover {
+    border: 2px solid #c5acf8;
+}
+
+#inputBox input::placeholder {
+    color: #f6f6f6;
+    font-family: 'BMYEONSUNG';
+}
+
+#loginBox {
+    height: 30px;
+    margin-top: 15px;
+    margin-left: 70%;
+    margin-bottom: 0px;
+    margin-right: 13%;
+}
+
+#loginBox input {
+    height: 100%;
+    width: 100%;
+    border-radius: 40px;
+    background-color: #b193ee;
+    font-family: 'BMYEONSUNG';
+    font-size: 20px;
+    border: 0px;
+}
+
+#loginBox input:hover {
+    cursor: pointer;
+    color: #f6f6f6;
+    background-color: #c5acf8;
+}
+
+.title {
+    font-family: 'BMYEONSUNG';
+    color: #b193ee;
+    margin-top: 15px;
+    text-align: center;
+    font-size: 30px;
+}
+
+#lay2 h1, #lay4 h1 {
+    padding-top: 20px;
+    font-family: 'BMHANNAPro';
+}
+
+#todo-form {
+    justify-content: center;
+    height: 50px;
+    margin-bottom: 0;
+    margin-top: 30px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+#todo-form input {
+    background: transparent;
+    border: 2px solid #f6f6f6;
+    color: #f6f6f6;
+    font-family: 'BMYEONSUNG';
+    font-size: 23px;
+    width: 100%;
+    height: 100%;
+    border-radius: 40px;
+    padding-left: 20px;
+    outline: none;
+}
+
+#todo-form input:hover{
+    border: 2px solid #c5acf8;
+}
+
+#todo-form input::placeholder {
+    color: #f6f6f6;
+}
+
+.toDoText {
+    color: #f6f6f6;
+    font-family: 'BMYEONSUNG';
+    margin-top: 40px;
+    margin-left: 40px;
+    font-size: 30px;
+}
+
+#playbutton {
+    margin-left: 93px;
+    margin-top: 0;
+    position: relative;
+    top: -20px;
+    
+}
+
+#video {
+    margin-left: 37px;
+    margin-bottom: 0;
+    
+}
+
+#weather {
+    font-size: 50px;
+    color: #b193ee;
+    position: relative;
+    top: -146px;
+    left: 345px;
+}
+
+#weatherIcon {
+    position: relative;
+    font-size: 60px;
+    top: 10px;
+    left: -10px;
+}
+
+#city {
+    font-size: 30px;
+    position: relative;
+    left: -20px;
+    top: -5px;
+}
+
+#date {
+    color: #b193ee;
+    font-size: 18px;
+    position: relative;
+    top: -110px;
+    left: 105px;
+}
+
+#googleForm {
+    margin-left: 60%;
+    margin-right: 2%;
+}
+
+#googleInput {
+    font-size: 25px;
+    font-family: 'BMYEONSUNG';
+    color: #f6f6f6;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid;
+    padding-top: 7px;
+    padding-right: 15px;
+    outline: none;
+}
+#googleInput:hover{
+    border-bottom: 2px solid #c5acf8;
+}
+
+#googleInput::placeholder {
+    color: #f6f6f6;
+    font-family: 'BMYEONSUNG';
+    font-size: 25px;
+}
+
+#searchIcon {
+    position: relative;
+    top: -31px;
+    left: 230px;
+    font-size: 23px;
+    color: #f6f6f6;
+}
+
+#i1, #i2, #i3, #i4, #i5 {
+    color: #f6f6f6;
+    margin: 35px;
+    font-size: 80px;
+    margin-left: 70px;
+}
+
+#deleteButton:hover {
+    color: #b193ee;
+}
+
+#t1, #t2, #t3, #t4, #t5 {
+    color: #f6f6f6;
+    font-size: 20px;
+}
+
+#t1, #t2, #t3 {
+    position: relative;
+    top: -120px;
+}
+
+#t1 {
+    position: relative;
+    left: -307px;
+}
+
+#t2 {
+    position: relative;
+    left: -189px;
+}
+
+#t3 {
+    position: relative;
+    left: -68px;
+}
+
+#t4 {
+    position: relative;
+    left: -500px;
+    top: 33px;
+}
+
+#t5 {
+    position: relative;
+    top: 31px;
+    left: -358px;
+}
+
+#pixelRun {
+    position: relative;
+    top: -533px;
+    left: 20px;
+}

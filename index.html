@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Momentum</title>
+  <link rel="stylesheet" href="style.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+  <div class="container">
+    <div id="laylay1">
+      <div id="lay1">
+        <!-- 로그인 -->
+        <div id="login">
+          <form action="" id="loginForm" class="hidden">
+            <div id="inputBox">
+              <input required maxlength="10" type="text" placeholder="이름이 무엇인가요?">
+            </div>
+            <div id="loginBox">
+              <input type="submit" value="로그인">
+            </div>
+          </form>
+          <h1 id="greeting" class="hidden"></h1>
+          <form action="" id="changeBtn" class="hidden">
+            <p>이름 변경하기</p>
+          </form>
+        </div>
+        <!-- 시계 -->
+        <h2 id="clock">00:00:00</h2>
+        <h2 id="date"></h2>
+        <!-- 날씨 -->
+        <div id="weather">
+          <span></span>
+          <i id="weatherIcon"></i>
+          <span id="city"></span>
+        </div>
+      </div>
+      <!-- 명언 -->
+      <div id="lay3">
+        <div id="quote" class="title">
+          <span></span>
+          <br>
+          <span></span>
+        </div>
+        <!-- 구글검색 -->
+        <div id="googleForm">
+          <form action="https://www.google.com/search" method="get">
+            <input id="googleInput" name="q" type="text" placeholder="Google Search" required>
+          </form>
+          <div id="searchIcon">
+            <i class='bx bx-search'></i>
+          </div>
+        </div>
+        <!-- 하이퍼링크 아이콘 -->
+        <i id="i1" class='bx bxl-youtube' ></i>
+        <i id="i2" class='bx bxl-twitch' ></i>
+        <i id="i3" class='bx bxl-chrome' ></i>
+        <br>
+        <i id="i4" class='bx bxl-twitter' ></i>
+        <i id="i5" class='bx bxl-instagram'></i>
+        <span id="t1">Youtube</span>
+        <span id="t2">Twitch</span>
+        <span id="t3">Chrome</span>
+        <span id="t4">X</span>
+        <span id="t5">Instagram</span>
+      </div>
+    </div>
+    <div id="laylay2">
+      <!-- 투두리스트 -->
+      <div id="lay2">
+        <h1 class="title">To Do List</h1>
+        <form id="todo-form">
+          <input type="text" placeholder="오늘의 할 일을 입력해 주세요" required>
+        </form>
+        <ul id="todo-list"></ul>
+      </div>
+    </div>
+    <div id="laylay3">
+      <!-- 플레이리스트 -->
+      <div id="lay4">
+        <h1 class="title">Today's Plylist</h1>
+        <div id="video">
+          <iframe id="playlist" width="340" height="190" src="https://www.youtube.com/embed/uEC3zTHvVhA?si=8qvazJPOPddF_JAB" frameborder="0"></iframe>
+        </div>
+        <div id="playbutton">
+          <img src="./playbutton.png" alt="" height="150">
+        </div>
+        <div id="pixelRun">
+          <img height="100" src="https://i.pinimg.com/originals/a7/a8/d0/a7a8d06c754cfbbbc37e64cb118c513c.gif" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- js파일 -->
+  <script src="greeting.js"></script>
+  <script src="clock.js"></script>
+  <script src="quotes.js"></script>
+  <script src="todo.js"></script>
+  <script src="background.js"></script>
+  <script src="weather.js"></script>
+  <script src="hyperlink.js"></script>
+  <script src="playlist.js"></script>
+</body>
+</html>
