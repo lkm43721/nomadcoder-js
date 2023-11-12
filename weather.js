@@ -13,7 +13,7 @@ function printWeather(data) {
         weather.className = 'bx bxs-cloud-rain'
     } else if(data.weather[0].main==='Snow') {
         weather.className = 'bx bx-cloud-snow'
-    } else {
+    } else if(data.weather[0].main==="Clear") {
         weather.className = 'bx bxs-sun'
     }
 }
@@ -21,6 +21,7 @@ function printWeather(data) {
 function GeoOk(position) {
     const lat = position.coords.latitude;
     const lon = position.coords.longitude;
+    console.log(lat, lon);
     const url = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${API_KEY}&units=metric`
     fetch(url)
         .then((response) => response.json())
