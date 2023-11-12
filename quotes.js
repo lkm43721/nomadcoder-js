@@ -8,10 +8,6 @@ const quotes = [
         author: "도라에몽"
     },
     {
-        quotes: "잃은 것만 세지 마! 없는 건 이제 없어! 너에게 남은 건 뭐냐?",
-        author: "원피스"
-    },
-    {
         quotes: "자신을 믿지 않는 녀석 따위는 노력 할 가치도 없다",
         author: "나루토"
     },
@@ -35,6 +31,27 @@ const quotes = [
         quotes: "뭔가를 얻기 원한다면 그와 동등한 대가가 필요하다",
         author: "강철의 연금술사"
     },
+    {
+        quotes: "노력할 수 있는 것이 가장 최고의 재능이다",
+        author: "바라카몬"
+    },
+    {
+        quotes: "누구나 무엇이든 될 수 있다",
+        author: "주토피아"
+    },
+    {
+        quotes: "시간은 아무도 기다려 주지 않는다",
+        author: "시간을 달리는 소녀"
+    },
+    {
+        quotes: "인생의 선택에 타인의 말은 필요 없어",
+        author: "은하철도 999"
+    },
+    {
+        quotes: "오늘 심고 내일 자라기를 바라지 마라",
+        author: "늑대아이"
+    },
+    
 ];
 
 const quote = document.querySelector("#quote span:first-child");

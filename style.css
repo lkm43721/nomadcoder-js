@@ -120,7 +120,7 @@ body {
     margin-top: 10px;
     font-size: 50px; 
     margin-left: 15%;
-    color: #b193ee;
+    color: #9a74e8;
 }
 
 #inputBox {
@@ -167,7 +167,7 @@ body {
     height: 100%;
     width: 100%;
     border-radius: 40px;
-    background-color: #b193ee;
+    background-color: #9a74e8;
     font-family: 'BMYEONSUNG';
     font-size: 20px;
     border: 0px;
@@ -181,7 +181,7 @@ body {
 
 .title {
     font-family: 'BMYEONSUNG';
-    color: #b193ee;
+    color: #9a74e8;
     margin-top: 15px;
     text-align: center;
     font-size: 30px;
@@ -246,7 +246,7 @@ body {
 
 #weather {
     font-size: 50px;
-    color: #b193ee;
+    color: #9a74e8;
     position: relative;
     top: -146px;
     left: 345px;
@@ -267,11 +267,15 @@ body {
 }
 
 #date {
-    color: #b193ee;
+    color: #9a74e8;
     font-size: 18px;
     position: relative;
     top: -110px;
     left: 105px;
+}
+
+#quote {
+    color: #dbad20;
 }
 
 #googleForm {
