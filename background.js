@@ -2,7 +2,6 @@ const img = [
     "https://i.pinimg.com/originals/7b/1b/b6/7b1bb67b642f2665a0709a26e57300e1.gif", 
     "https://art.pixilart.com/sr20428de54157f.gif",
     "https://art.pixilart.com/sr26cba67f65d0a.gif",
-    "https://art.pixilart.com/b870f4898f4d.gif",
     "https://i.pinimg.com/originals/34/d7/a3/34d7a3bbe7ab056f213e66c7182dd57e.gif",
     "https://cdna.artstation.com/p/assets/images/images/025/249/366/original/lennart-butz-ukiyo2.gif?1585180234",
 

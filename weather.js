@@ -5,7 +5,7 @@ function printWeather(data) {
     const city = document.querySelector("#weather span:last-child");
     const temp = document.querySelector("#weather span:first-child");
     city.innerText = data.name;
-    temp.innerText = `${Math.round(data.main.temp)}.`;
+    temp.innerText = `${Math.round(data.main.temp)} `;
     console.log(data.weather[0].main);
     if(data.weather[0].main==='Clouds') {
         weather.className = 'bx bxs-cloud'

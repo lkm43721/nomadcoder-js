@@ -313,6 +313,11 @@ body {
     margin: 35px;
     font-size: 80px;
     margin-left: 70px;
+    cursor: pointer;
+}
+
+#i1:hover, #i2:hover, #i3:hover, #i4:hover, #i5:hover {
+    color: #c5acf8;
 }
 
 #deleteButton:hover {
